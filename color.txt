@@ -1,0 +1,8 @@
+purple #5333ed
+
+turqoise #2cd4d9
+
+neutral  #efefef
+
+carbon #a9a9a9
+

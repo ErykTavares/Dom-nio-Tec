@@ -1,0 +1,237 @@
+* {
+    margin:0;
+    text-decoration: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #efefef;
+}
+
+.nav-bar{
+    background-color:  #5333ed;
+    max-width: 100%;
+    height: 100px;
+    padding: 6px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title{
+    background-color:transparent;
+}
+
+.title a {
+    color:white;
+    background-color:transparent;
+    font-size: 35px;
+}
+
+.nav-bar-links{
+    background-color:transparent;
+
+}
+
+.nav-bar-links a{
+    color: white;
+    background-color:transparent;
+    padding: 3px;
+    font-size: 20px;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;  
+    width: 80%;
+    margin: auto;
+    padding: 6px;
+}
+
+.content-games{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 6px;
+    padding: 6px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.content-games-texts {
+    text-align: justify;
+    background-color: white;
+}
+
+
+.content-games-texts h3{
+    margin: 6px;
+    font-size:25px;
+    color: #2cd4d9;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(21, 106, 128);
+    background-color: white;
+}
+.content-games-texts p{
+    margin: 6px;
+    background-color: white;
+}
+
+.content-games-texts h6{
+    margin: 6px;
+    color: darkgray;
+   
+    background-color: white;
+
+}
+
+.content-games-img{
+    width: 200px;
+    height: 150px;
+    padding: 6px;
+    background-color: white;
+    border-radius: 8%;
+}
+
+.content-apps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px;
+    padding: 6px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.content-apps-texts{
+    text-align: justify;
+    background-color:white;
+}
+
+.content-apps-texts h3{
+    margin: 6px;
+    font-size: 25px;
+    color: #2cd4d9;
+    -webkit-text-stroke-color:rgb(21, 106, 128);
+    -webkit-text-stroke-width: 1px;
+    background-color:white
+}
+
+.content-apps-texts p{
+    margin:6px;
+    background-color:white;
+}
+
+.content-apps-texts h6{
+    margin: 6px;
+    color: darkgray;
+    background-color:white;
+}
+
+.content-apps-img{
+    width: 200px;
+    height: 150px;
+    border-radius: 8%;
+    padding: 6px;
+    background-color:white;
+}
+
+.content-gadgets{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px;
+    padding: 6px;
+    border: 1px solid black;
+    background-color:white;
+}
+
+.content-gadgets-texts{
+    text-align:justify;
+    background-color:white;
+}
+.content-gadgets-texts h3{
+    margin: 6px;
+    font-size:25px;
+    color: #2cd4d9;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(21, 106, 128);
+    background-color:white;
+}
+.content-gadgets-texts p{
+    margin: 6px;
+    background-color:white;
+}
+.content-gadgets-texts h6{
+    margin: 6px;
+    color: darkgray;
+    background-color:white;
+}
+
+.content-gadgets-img{
+    width: 200px;
+    height: 150px;
+    border-radius: 8%;
+    padding: 6px;
+    background-color:white;
+}
+
+
+.footer{
+    width: 99%;
+    height: 50px;
+    position:relative;
+    bottom: -5px;
+    align-items: center;
+    justify-content:center;
+    padding: 6px;
+    background-color:#e6e4e4;
+}
+
+
+.footer h6{
+    text-align: center;
+    margin:auto;
+    padding: 3px;
+    align-items: center;
+    justify-content:center;
+    background-color:transparent;
+}
+
+
+.github-img {
+    background-color:transparent;
+    width: 20px;
+    margin:auto;
+    padding: 3px;
+}
+.github-img a{
+    background-color:transparent;
+
+}
+
+.github-img img{
+    background-color:transparent;
+    width: 20px;
+}
+
+/* footer das outras pagnas que somente tem 1 post */
+.footer-other{
+    width: 100%;
+    height: 50px;
+    position:fixed;
+    bottom: -5px;
+    align-items: center;
+    justify-content:center;
+    padding: 6px;
+    background-color:#e6e4e4;
+}
+.footer-other h6{
+    text-align: center;
+    margin:auto;
+    padding: 3px;
+    align-items: center;
+    justify-content:center;
+    background-color:transparent;
+}
